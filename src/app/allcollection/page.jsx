@@ -3,14 +3,13 @@ import Card from '../components/Card'
 
 const page = () => {
   return (
-    <div className='m-40 '>
-      <div>
-        <h1 className='m-10 font-serif text-3xl font-bold text-black'>All Collection</h1>
+    <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-20 xl:px-40 py-8">
+      <h1 className="mb-10 font-serif text-3xl font-bold text-black text-center sm:text-left">
+        All Collection
+      </h1>
+      <div className="flex justify-center sm:justify-start">
+        <Card />
       </div>
-     
-      
-      <Card />
-      
     </div>
   )
 }
